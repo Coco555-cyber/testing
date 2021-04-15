@@ -1,8 +1,85 @@
 
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
 <html>
-    <style>
-        
-    </style>
+    <header>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+            }
 
+            body {
+                font-family: Cabin;
+                align-self: center;
+                text-align: center;  
+            }
+
+            navbar a {
+                color: black;
+                text-decoration: none;
+                padding: 1.58rem;
+            }
+
+            navbar a:hover {
+                background: #5e5e5e;
+                color: white;
+            }
+
+            #navbar {
+                position: fixed;
+                top: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                background: #2FDA77;
+                width: 100%;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.5);
+            }
+
+            navbar ul {
+                margin-left: 80vw;
+                width: 100%;
+                padding: 15px;
+                font-size: 20px;
+            }
+
+            #navbar ul {
+                width: 10vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            #navbar li {
+                list-style: none;
+                margin: 10px;
+            }
+        </style>
+    </header>
+
+    <main>
+        <navbar id="navbar">
+            <ul>
+              <li>
+                <a href="">About</a>
+              </li>
+              
+              <li>
+                <a href="">Tutorial</a>
+              </li>
+              
+              <li>
+                <a href="">Game</a>
+              </li>
+            </ul>
+          </navbar>
+
+          <body>
+
+          </body>
+    </main>
+    
 </html>

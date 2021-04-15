@@ -1,2 +1,0 @@
-# SHSHACKS
-hello world
